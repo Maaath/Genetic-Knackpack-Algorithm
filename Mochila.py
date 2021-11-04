@@ -33,7 +33,7 @@ class Mochila():
                 self.itens[i-1]=False
         return V
 
-def mochila_main(itens,peso): #fazendo a conversão de uma matriz para uma lista de dicionário
+def mochila_main(itens,peso): #fazendo a conversão de uma matriz para uma lista de dicionários
 
     itens_aux = []
     for i in range(0, len(itens)):
