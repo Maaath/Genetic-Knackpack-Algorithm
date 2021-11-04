@@ -11,7 +11,7 @@ class Mochila():
     def solve(self):
         n=len(self.lista)
         W=self.capacidade
-        V=[[0]*(W+1) for i in range(n+1)] #Inicia Matrix n x W com 0
+        V=[[0]*(W+1) for i in range(n+1)] #Inicia Matriz n x W com 0
         tabela_troca=[[False]*(W+1) for i in range(n+1)]
         for i in range(1,n+1):
             for j in range(1,W+1):
@@ -33,7 +33,7 @@ class Mochila():
                 self.itens[i-1]=False
         return V
 
-def mochila_main(itens,peso): #fazendo a conversão de uma matrix para uma lista de dicionário
+def mochila_main(itens,peso): #fazendo a conversão de uma matriz para uma lista de dicionário
 
     itens_aux = []
     for i in range(0, len(itens)):
