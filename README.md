@@ -34,6 +34,27 @@ There are many ways to apply this concept, but regardless of application, in gen
 <h3>:ferris_wheel: Roulette wheel selection </h3>
 <p>This method, like others, seeks to give chances to individuals who, although they may not have very good genetics, may have good characteristics, but in order for this individual to be a father to generate new children, in the case of roulette, this must be decided by means of luck using a roulette wheel. The operation if a draw by roulette consists of spinning a roulette, a fixed arrow that points to a part of the roulette indicates which part is selected, and in genetic algorithms, the selected parts refer to the individuals who will be the parents of the next generation , but the chances of winning are not equal for all individuals in the population, so, to have a greater chance of a possible father with better genes to win, he has a greater area on the roulette wheel, this area being proportional to the probability that he is the best gene, making there a greater chance of being drawn.</p>
 
+
+<h2>:dart: Results</h2>
+<h3>Constants</h3>
+<li>We used retain=0.2 to select 20% to become parents</li>
+<li>random_select=0.05 to select 5% randomly to promote genetic diversity</li>
+<li> and finally mutate=0.01 to mutate 1%</li>
+<br>
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/38335297/161145671-2bf1e582-7130-4826-8103-68f99ed1b80d.PNG" width="900px;" alt="Constants Picture"/><br>
+</div>
+<h3>Low complexity (4 itens, 20 epochs and limit 5kg)</h3>
+<h4>Parameters:</h4>
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/38335297/161148975-39d2ccee-7f96-4ee0-b1d9-1e62307ee0ac.PNG" width="900px;" alt="Constants Picture"/><br>
+</div>
+<h4>Out:</h4>
+<p>We can see that after two epochs it already reaches the goal, which is the value 37.</p>
+<div>
+ <img src="https://user-images.githubusercontent.com/38335297/161149272-ba171a33-c5de-4d68-b69e-4b8742324a50.PNG" width="100px;" style="margin-left:10%; alt="Constants Picture"/>
+</div>
+
 <h2>:wrench: Credits</h2>
 <table>
   <tr>
